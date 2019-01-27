@@ -1,0 +1,357 @@
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif, 'Aleo', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;  
+  }
+
+  header,
+  section{
+    font-size: 0;
+  }
+
+  body * {
+    box-sizing: border-box;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+
+  a:hover {
+    color: #132ea5;
+  }
+
+
+  img {
+    width: auto;
+    max-width: 100%;
+  }
+
+  input,
+  button {
+    outline:none;
+  }
+
+  button {
+    border: none;
+    background: #5474fd;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: 'Aleo', serif;
+  }
+
+  button:hover{
+    box-shadow: inset 0 0 60px rgba(19, 46, 165, 0.5);
+  }
+
+  h1, h2, h3, h5 {
+    margin: 0;
+  }
+
+  h1 {
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 8px;
+    margin-top: 80px;
+  }
+
+  h2 {
+    padding-bottom: 55px;
+    font-size: 22px; 
+    letter-spacing: 8px;
+    font-weight: 200;
+  }
+
+  h3 {
+    padding-right: 220px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  h4 {
+    font-size: 36px;
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+  }
+  
+  h5, h6 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  h6 {
+    margin: 30px 0;
+    text-transform: uppercase;
+  }
+
+  p, h5, h6 {
+    color: #e8e8e8;
+  }
+
+  p {
+    font-weight: 200;
+  }
+
+  header {
+    background: url('../images/header_bg.png') no-repeat 0 0;
+    background-size: 100% auto;
+    background-color: #5474fd;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  header .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 330px;
+    color: inherit;
+    font-size: 14px;
+  }
+
+  header .wrapper a:hover {
+     color: #fff;
+  }
+
+  header .form-field {
+    overflow: hidden;
+    height: 60px;
+    width: 650px;
+    background-color: #fff;
+  }
+
+  header .form-field input {
+    float: left;
+    padding-left: 120px;
+    height: 100%;
+    width: 500px;
+    font-size: 14px;
+    border: none;
+    background-color: #fff;
+    color: #999999;
+    letter-spacing: 2px;
+  }
+
+  header .form-field button {
+    padding: 22px 28px;
+    height: 55px;
+    width: 145px;
+    margin: 2px;
+  }
+
+  header .scroll {
+    padding-top: 120px;
+    text-align: center;
+  }
+
+ header .scroll a {
+   font-weight: 200;
+  }
+
+  header .scroll a:hover {
+    font-weight: 400;
+    color: #fff;
+  }
+
+  header .nav {
+    display: flex;
+    width: 100%;
+    background-color: #5474fd;
+    height: 80px;
+    padding: 35px 330px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Aleo', serif;
+  }
+
+   header .nav-item {
+    text-transform: uppercase;
+    font-size: 14px;
+   }
+
+  header .nav-item:hover {
+    color: #132ea5;
+  }
+
+  section.choose {
+    background: url('../images/castle.png') no-repeat 0 0;
+    background-size: 100% auto;
+    background-color: #333333;
+  }
+
+  section.choose .wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 330px;
+    color: inherit;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  section.choose button,
+  section.country button {
+    padding: 25px 38px;
+    height: 60px;
+    width: 225px;
+    margin: 25px 0;
+  }
+
+  section.choose .choose-item1 {
+    width: 542px;
+    padding-right: 100px;
+    font-family: 'Aleo', serif;
+  }
+
+  section.choose .choose-item2 {
+    text-align: right;
+  }
+
+  section.choose .choose-img1 {
+    margin-right: 125px;
+  }
+
+  section.choose .choose-img2 {
+    margin-left: 125px;
+  }
+
+  section .choose-icons {
+    display: flex;
+    width: 100%;
+    background-color: #333333;
+    height: 80px;
+    padding: 100px 330px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Aleo', serif;
+    text-align: center;
+  }
+
+  section .choose-icons  a {
+    margin-bottom: 100px;
+  }
+
+  section.country {
+    background: url('../images/mountains.png') no-repeat 0 0;
+    background-size: 100% auto;
+    background-color: #432219;
+  }
+
+  section.country .content {
+    width: 48%;
+    padding: 50px 30px 30px 25px;
+    background-color: rgba(35, 35, 35, 0.9);
+  }
+
+  section.country .wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    height: 80vh;
+    padding: 0 330px;
+    color: inherit;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  section.country .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  section.country button {
+    align-self: flex-end;
+  }
+
+  section.comments {
+    background: url('../images/tourist_bg.png') no-repeat 0 0;
+    background-size: 100% auto;
+    background-color: #333333;
+  }
+
+  section.comments .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 50px 330px;
+    color: inherit;
+    font-size: 16px;
+  }
+
+  section.comments .comments-content {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    background-color: #333333;
+    max-height: 270px;
+  }
+
+  section.comments .comments-contentin i {
+    color: #5474fd;
+    font-size: 24px;
+  }
+
+  section.comments .comments-video {
+    width: 40%;
+  }
+
+  section.comments .comments-contentin {
+    padding: 30px;
+    width: 60%;
+  }
+
+  footer {
+    background-size: 100% auto;
+    background-color: #333333;
+  }
+
+  footer .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 330px 50px 330px;
+    color: inherit;
+    font-size: 16px;
+  }
+
+  footer h3 {
+    padding: 0;
+  }
+
+  footer p {
+    letter-spacing: 1px;
+  }
+
+  footer .social {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    font-size: 14px;
+  }
+
+  footer .social a:hover {
+    color: #5474fd;
+  }
+
